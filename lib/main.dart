@@ -150,8 +150,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: RichText(
                         text: const TextSpan(
                           children: [
-                            TextSpan(text: "Learn more", style: TextStyle(color: Colors.white)),
-                            WidgetSpan(child: Icon(Icons.arrow_forward_rounded, size: 16))
+                            TextSpan(text: "Learn more", style: TextStyle(color: Colors.white, fontSize: 12)),
+                            WidgetSpan(child: Icon(Icons.arrow_forward_rounded, size: 12))
                           ]
                         )
                       )
